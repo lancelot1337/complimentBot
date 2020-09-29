@@ -1,0 +1,2 @@
+minimal: https://discord.com/oauth2/authorize?client_id=760611990744858666&scope=bot&permissions=3072
+all: https://discord.com/oauth2/authorize?client_id=760611990744858666&scope=bot&permissions=2146958847
