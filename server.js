@@ -21,8 +21,8 @@ client.once("ready", () => {
 });
 
 client.on("message", (message) => {
+  message.content = message.content.toLowerCase();
   if (!message.content.startsWith(prefix) || message.author.bot) return;
-
   const args = message.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
   client.commands.get("compliment").execute(message, args);
